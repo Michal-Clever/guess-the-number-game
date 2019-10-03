@@ -8,6 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Main {
 
+
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) {
