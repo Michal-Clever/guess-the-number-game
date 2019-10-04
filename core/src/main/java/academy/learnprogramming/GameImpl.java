@@ -20,17 +20,15 @@ public class GameImpl implements Game {
     // == fields ==
     @Getter(AccessLevel.NONE)
     private final NumberGenerator numberGenerator;
-
     private final int guessCount;
-
     private int number;
-    @Setter
-    private int guess;
     private int smallest;
     private int biggest;
     private int remainingGuesses;
     private boolean validNumberRange = true;
 
+    @Setter
+    private int guess;
     // == constructor ==
     @Autowired
     public GameImpl(NumberGenerator numberGenerator, @GuessCount int guessCount) {
