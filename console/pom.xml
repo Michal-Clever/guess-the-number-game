@@ -17,6 +17,15 @@
             <artifactId>core</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>system</scope>
+            <systemPath>${basedir}/../libs/lombok-edge.jar</systemPath>
+        </dependency>
+
+
+
     </dependencies>
 
 
